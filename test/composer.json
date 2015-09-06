@@ -1,0 +1,6 @@
+{
+    "require": {
+        "doctrine/doctrine-orm-module": "0.7.*",
+        "ocramius/ocra-service-manager": "~2.1"
+    }
+}

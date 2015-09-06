@@ -1,0 +1,46 @@
+{
+    "name": "ocramius/ocra-service-manager",
+    "description": "ZF2 Service manager extensions to allow service proxies and dependency graph generation",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/Ocramius/OcraServiceManager",
+    "authors": [
+        {
+            "name": "Marco Pivetta",
+            "email": "ocramius@gmail.com",
+            "homepage": "http://ocramius.github.com/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "zendframework/zend-mvc":             "~2.2",
+        "zendframework/zend-servicemanager":  "~2.2",
+        "zendframework/zend-modulemanager":   "~2.2",
+        "zendframework/zend-http":            "~2.2",
+        "ocramius/proxy-manager":             "0.5.*"
+    },
+    "require-dev": {
+        "zendframework/zendframework":        "~2.2",
+        "zendframework/zend-developer-tools": "0.*",
+        "phpunit/phpunit":                    "~4.0",
+        "squizlabs/php_codesniffer":          "2.0.*@ALPHA"
+    },
+    "suggest": {
+        "zendframework/zend-developer-tools": "Allows displaying service dependencies"
+    },
+    "autoload": {
+        "psr-0": {
+            "OcraServiceManager\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "OcraServiceManagerTest\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.2-dev"
+        }
+    }
+}
