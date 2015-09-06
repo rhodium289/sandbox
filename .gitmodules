@@ -1,6 +1,3 @@
-[submodule "helicopterview/google-api/google-api-php-client"]
-	path = helicopterview/google-api/google-api-php-client
-	url = https://github.com/google/google-api-php-client.git
 [submodule "helicopterview/google-api-php-client"]
 	path = helicopterview/google-api-php-client
 	url = https://github.com/google/google-api-php-client.git
